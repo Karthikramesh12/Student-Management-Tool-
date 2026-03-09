@@ -1,0 +1,72 @@
+{
+    "SUCCESS": {
+        "code": 1000,
+        "message": {
+            "en": "Operation completed successfully.",
+            "es": "Operación completada con éxito."
+        }
+    },
+    "INVALID_REQUEST": {
+        "code": 1001,
+        "message": {
+            "en": "Invalid request parameters.",
+            "es": "Parámetros de solicitud inválidos."
+        }
+    },
+    "UNAUTHORIZED": {
+        "code": 1002,
+        "message": {
+            "en": "Unauthorized access.",
+            "es": "Acceso no autorizado."
+        }
+    },
+    "FORBIDDEN": {
+        "code": 1003,
+        "message": {
+            "en": "Forbidden action.",
+            "es": "Acción prohibida."
+        }
+    },
+    "NOT_FOUND": {
+        "code": 1004,
+        "message": {
+            "en": "Resource not found.",
+            "es": "Recurso no encontrado."
+        }
+    },
+    "SERVER_ERROR": {
+        "code": 1005,
+        "message": {
+            "en": "Internal server error.",
+            "es": "Error interno del servidor."
+        }
+    },
+    "VALIDATION_ERROR": {
+        "code": 1006,
+        "message": {
+            "en": "Validation failed.",
+            "es": "La validación falló."
+        }
+    },
+    "CONFLICT": {
+        "code": 1007,
+        "message": {
+            "en": "Conflict detected.",
+            "es": "Conflicto detectado."
+        }
+    },
+    "TOO_MANY_REQUESTS": {
+        "code": 1008,
+        "message": {
+            "en": "Too many requests. Please try again later.",
+            "es": "Demasiadas solicitudes. Por favor, inténtelo de nuevo más tarde."
+        }
+    },
+    "ERROR": {
+        "code": 1009,
+        "message": {
+            "en": "An error occurred.",
+            "es": "Ocurrió un error."
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "leadflexup-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "gen:module": "node scripts/generateModule.js",
+    "gen:model": "node scripts/generateModel.js",
+    "gen:migration": "node scripts/generateMigration.js",
+    "migrate:deploy": "node scripts/deployMigration.js",
+    "gen:docs": "node scripts/generatePostman.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyoforgeOrg/leadFlexUp-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyoforgeOrg/leadFlexUp-backend/issues"
+  },
+  "homepage": "https://github.com/RyoforgeOrg/leadFlexUp-backend#readme",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.4.2",
+    "@prisma/client": "^7.4.2",
+    "@prisma/extension-accelerate": "^3.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.1",
+    "node-cron": "^4.2.1",
+    "nodemon": "^3.1.10",
+    "pg": "^8.19.0",
+    "redis": "^5.8.2"
+  },
+  "devDependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "prisma": "^7.4.2"
+  }
+}
